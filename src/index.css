@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+.nav-bar {
+  @apply bg-white border-[#ECECEC] text-[#111336];
+}
+
+.side-nav {
+  @apply border-r-[1px] h-screen px-4 pt-4 pb-9 fixed transition-all duration-300 ease-in-out;
+}
+
+.nav-item {
+  @apply flex items-center gap-3;
+}
+
+.nav-item-text {
+  @apply font-medium text-sm;
+}
+
+.nav-item-img {
+  @apply h-5 w-5 object-cover;
+}
+
+.hover-line {
+  @apply absolute right-0.5 top-1/2 w-1 bg-[#703BE7] transition-all duration-500 ease-in-out transform -translate-y-1/2;
+}
+
+.profile-image {
+  @apply h-9 w-9 object-cover;
+}
+
+.profile-information {
+  @apply py-1 pl-3 pr-1 flex items-center gap-2 rounded-full h-[44px] w-[130px];
+}
+
+.profile-information-color {
+  background: linear-gradient(
+    90deg,
+    rgba(112, 59, 231, 1) 0%,
+    rgba(205, 137, 255, 1) 50%,
+    rgba(234, 193, 237, 1) 100%
+  );
+}
+
+.product-information {
+  @apply sm:m-6 my-6 mx-3 sm:p-6 py-6 px-3 border-[1px] border-[#ECECEC] rounded-2xl flex flex-col gap-6;
+}
+
+.dashboard-section {
+  @apply border-[1.5px] rounded-2xl flex flex-col gap-9;
+}
+
+.dashboard-selection-section {
+  @apply flex items-center gap-2;
+}
+
+.video-selection-content {
+  @apply py-7 sm:px-6 px-3 flex items-center gap-4 border-[1px] border-[#E6E6E6] rounded-xl hover:bg-[#8D62EC] hover:text-white transition-all duration-300 cursor-pointer;
+}
+
+.video-selection-content img {
+  @apply w-9 h-7 object-cover;
+}
+
+.form-legend {
+  @apply font-semibold text-[#111336] gap-0;
+}
+
+.nuansa-select {
+  @apply select w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7];
+}
+
+.bahasa-container {
+  @apply h-10 border-1 border-[#ECECEC] rounded-xl py-1.5 pl-1 pr-4.5 flex items-center gap-2 transition-all duration-300 cursor-pointer;
+}
+
+.bahasa-selected {
+  @apply !border-[#703BE7] bg-[#703BE71A] text-[#703BE7];
+}
+
+.bahasa-container img {
+  @apply h-7 w-7 object-cover;
+}
+
+.fieldset input {
+  @apply input w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7];
+}
+
+.fieldset textarea {
+  @apply textarea w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7] h-35;
+}
+
+.target-audiens-option {
+  @apply border-1 border-[#8A8A8A] rounded-[34px] py-0.5 px-2.5 flex items-center gap-1;
+}
+
+.target-audiens-option p {
+  @apply text-xs font-medium text-[#545454];
+}
+
+.next-section {
+  @apply flex w-fit mx-auto cursor-pointer items-center gap-2 pt-6 pb-3 font-medium text-[#703BE7] text-sm;
+}
+
+.product-selection-image {
+  @apply h-10 w-10 object-cover rounded-lg;
+}
+
+.quick-edit-button {
+  @apply hover:bg-[#8D62EC] hover:border-[#8D62EC] hover:text-white font-medium text-[#111336] transition-all duration-300;
+}
+
+.media-label {
+  @apply flex flex-col gap-2;
+}
+
+.label-text {
+  @apply font-semibold text-sm;
+}
+
+.media-container {
+  @apply border-1 border-[#ECECEC] flex items-center gap-2 p-4 rounded-lg;
+}
+
+.add-media {
+  @apply h-20 w-20 rounded-2xl bg-[#F5F5F5] flex items-center justify-center;
+}
+
+.add-text {
+  @apply text-4xl font-light;
+}
+
+.media-container img {
+  @apply h-20 w-20 rounded-xl object-cover;
+}
+
+.main-button {
+  @apply bg-[#703BE7] hover:bg-[#8D62EC] text-white font-medium transition-all duration-300;
+}
