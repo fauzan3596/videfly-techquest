@@ -34,5 +34,4 @@ export {
   VideoSelectionSection,
   ProductInformationSection,
   ProductInformationContent,
-  
 };

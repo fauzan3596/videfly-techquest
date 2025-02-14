@@ -11,13 +11,25 @@ const RightContentSection = () => {
         <p className="label-text">
           Media Produk<span className="text-[#E94057]">*</span>
         </p>
-        <div className="media-container">
-          <div className="add-media cursor-pointer">
+        <div className="media-container carousel carousel-center">
+          <div className="add-media cursor-pointer carousel-item h-10 w-10">
             <span className="add-text">+</span>
           </div>
-          <img src="/images/product/product-5.png" alt="Product 5" />
-          <img src="/images/product/product-6.png" alt="Product 6" />
-          <img src="/images/product/product-7.png" alt="Product 7" />
+          <img
+            src="/images/product/product-5.png"
+            alt="Product 5"
+            className="carousel-item"
+          />
+          <img
+            src="/images/product/product-6.png"
+            alt="Product 6"
+            className="carousel-item"
+          />
+          <img
+            src="/images/product/product-7.png"
+            alt="Product 7"
+            className="carousel-item"
+          />
         </div>
       </div>
       <div className="flex gap-4">
@@ -63,7 +75,7 @@ const RightContentSection = () => {
                 alt="AI Icon"
                 className="h-4.5 w-4.5 object-cover"
               />
-              <p className="font-medium text-sm">Disarankan oleh AI</p>
+              <p className="font-medium text-sm sm:block hidden">Disarankan oleh AI</p>
             </div>
             <p className="font-medium text-xs">0/5 dipilih</p>
           </div>
