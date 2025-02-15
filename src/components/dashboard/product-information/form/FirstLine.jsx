@@ -18,7 +18,7 @@ const FirstLine = () => {
               alt="Promosional"
               className="w-5 h-5 object-cover"
             />
-            <p className="text-sm">Promosional</p>
+            <p className="text-sm text-[#111336]">Promosional</p>
           </div>
         </div>
       </fieldset>

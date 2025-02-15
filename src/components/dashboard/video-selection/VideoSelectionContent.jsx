@@ -7,7 +7,7 @@ const VideoSelectionContent = ({ content, isSelected, onClick }) => {
   return (
     <div
       className={`video-selection-content group ${
-        isSelected && "bg-[#8D62EC] text-white"
+        isSelected && "bg-[#8D62EC] !text-white"
       }`}
       onClick={onClick}
     >
