@@ -57,7 +57,7 @@
 }
 
 .video-selection-content {
-  @apply py-7 sm:px-6 px-3 flex items-center gap-4 border-[1px] border-[#E6E6E6] rounded-xl hover:bg-[#8D62EC] hover:text-white transition-all duration-300 cursor-pointer;
+  @apply py-7 sm:px-6 px-3 flex items-center gap-4 border-[1px] border-[#E6E6E6] rounded-xl hover:bg-[#8D62EC] text-[#111336] hover:text-white transition-all duration-300 cursor-pointer;
 }
 
 .video-selection-content img {
@@ -69,11 +69,11 @@
 }
 
 .nuansa-select {
-  @apply select w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7];
+  @apply select w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7] bg-white text-[#111336];
 }
 
 .bahasa-container {
-  @apply h-10 border-1 border-[#ECECEC] rounded-xl py-1.5 pl-1 pr-4.5 flex items-center gap-2 transition-all duration-300 cursor-pointer;
+  @apply h-10 border-1 border-[#ECECEC] rounded-xl py-1.5 pl-1 pr-4.5 flex items-center gap-2 transition-all duration-300 cursor-pointer bg-white text-[#111336];
 }
 
 .bahasa-selected {
@@ -85,11 +85,11 @@
 }
 
 .fieldset input {
-  @apply input w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7];
+  @apply input w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7] text-[#111336] bg-white;
 }
 
 .fieldset textarea {
-  @apply textarea w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7] h-35;
+  @apply textarea w-full rounded-xl border-[#E6E6E6] focus:outline-none focus:border-[#703BE7] h-35 text-[#111336] bg-white;
 }
 
 .target-audiens-option {
@@ -109,7 +109,7 @@
 }
 
 .quick-edit-button {
-  @apply hover:bg-[#8D62EC] hover:border-[#8D62EC] hover:text-white font-medium text-[#111336] transition-all duration-300;
+  @apply hover:bg-[#8D62EC] hover:border-[#8D62EC] hover:text-white font-medium bg-[#F5F5F5] text-[#111336] transition-all duration-300;
 }
 
 .media-label {
@@ -117,7 +117,7 @@
 }
 
 .label-text {
-  @apply font-semibold text-sm;
+  @apply font-semibold text-sm text-[#111336];
 }
 
 .media-container {
@@ -129,7 +129,7 @@
 }
 
 .add-text {
-  @apply text-4xl font-light;
+  @apply text-4xl font-light text-[#111336];
 }
 
 .media-container img {

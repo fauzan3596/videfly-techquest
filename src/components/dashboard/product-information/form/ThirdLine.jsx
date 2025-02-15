@@ -17,7 +17,7 @@ const ThirdLine = () => {
         <legend className="fieldset-legend form-legend">Target Audiens</legend>
         <div className="relative w-full h-35">
           <textarea placeholder="Contoh: Kecantikan alami, dry skin"></textarea>
-          <div className="absolute bottom-2 left-3.5 flex gap-2">
+          <div className="absolute bottom-2 left-3.5 flex flex-wrap gap-2">
             <div className="target-audiens-option">
               <p>+</p>
               <p>Wanita</p>

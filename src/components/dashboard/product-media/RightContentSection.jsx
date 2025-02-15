@@ -68,7 +68,7 @@ const RightContentSection = () => {
           </div>
         </div>
         <div className="media-label w-full">
-          <div className="flex justify-between">
+          <div className="flex justify-between text-[#111336]">
             <div className="flex gap-1.5">
               <img
                 src="/icons/ai-icon.svg"
